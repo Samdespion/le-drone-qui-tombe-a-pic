@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="******ADD SOME DESC******">
+	<meta name="keywords" content="******ADD SOME KEYWORDS******">
+	<meta name="author" content="Samdespion">
+	<meta name="language" content="fr">
+	<!-- Tab config -->
+	<title>Le Drone Qui Tombe A Pic</title>
+	<link rel="shortcut icon" href="images/favicon.avif" type="image/jpeg">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!-- Line Awesome -->
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+	<!-- ******************************************************* NAVBAR ******************************************************* -->
+
+	<div class="navbar">
+		<h2>
+			<a href="tel:+330102030405">
+				<i class="fas fa-phone-square nav-icon-phone-menu"></i>
+			</a>
+			<span class="big-screen">01&nbsp;02&nbsp;03&nbsp;04&nbsp;05</span>
+		</h2>
+		<button onclick="toggleMenu(event)" class="drop-btn small-screen"><i class="fas fa-caret-down nav-icon-btn-menu"></i></button>
+		<nav class="menu-content" id="small-nav-menu">
+			<ul class="menu-li-container">
+				<li class="nav-li-item"><a href="#home" data-translate="nav.home"></a></li>
+				<li class="nav-li-item"><a href="#portfolio" data-translate="nav.portfolio">Réalisations</a></li>
+				<li class="nav-li-item"><a href="#services" data-translate="nav.services">Prestations</a></li>
+				<li class="nav-li-item"><a href="#about" data-translate="nav.about">À propos</a></li>
+				<li class="nav-li-item"><a href="#contact" data-translate="nav.contact">Contact</a></li>
+				<li class="nav-li-item">
+					<div class="language-selector">
+						<button class="toggle-language" data-lang="fr">FR</button>
+						<button class="toggle-language" data-lang="en">EN</button>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- ******************************************************* HOME ******************************************************* -->
+
+	<section class="home" id="home">
+		<div class="background-image" style="background-image: url(images/home.avif);"></div>
+		<h1 data-translate="company.name"></h1>
+		<h3 data-translate="home.subtitle"></h3>
+		<a data-translate="home.contact" href="#contact" class="btn">Contact</a>
+	</section>
+
+	<!-- ******************************************************* PORTFOLIO ******************************************************* -->
+
+	<section class="portfolio" id="portfolio">
+		<h3 class="title">Nos réalisations</h3>
+
+		<div class="img-grid">
+
+			<div class="frame">
+				<div class="img-container">
+					<img class="img" src="images/suivi-fonte-des-glaces.avif" alt="Rénovation douche à l'italienne avec pose du bac à douche et faïence">
+				</div>
+				<p>Suivi de la fonte des glaces pour le père Noël</p>
+			</div>
+
+			<div class="frame">
+				<div class="img-container">
+					<img class="img" src="images/mariage.avif" alt="Rénovation salle de bain">
+				</div>
+				<p>Mariage du prince Albert</p>
+			</div>
+
+			<div class="frame">
+				<div class="img-container">
+					<img class="img" src="images/inspection-route.avif" alt="Pose de faïence avec motif centraux et pose du receveur extra-plat">
+				</div>
+				<p>Inspection d'une route de montagne pour l'office de mon cul</p>
+			</div>
+
+			<div class="frame">
+				<div class="img-container">
+					<img class="img" src="images/surveillance-de-masse.avif" alt="Réalisation de l'habillage baignoire avec pose de faïence et sol">
+				</div>
+				<p>Surveillance de masse pour le compte du parti communiste chinois</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- ******************************************************* SERVICES ******************************************************* -->
+
+	<section class="services" id="services">
+		<h3 data-translate="services.title" class="title">Prestations</h3>
+		<p data-translate="services.description">Nous intervenons sur tout type de chantier, travaux neuf ou rénovation, revêtement sol et mural :</p>
+
+		<ul data-translate="services.items">
+		</ul>
+	</section>
+
+	<!-- ******************************************************* ABOUT ******************************************************* -->
+
+
+	<section class="about" id="about">
+		<h3 class="title" data-translate="about.title">Qui sommes-nous ?</h3>
+
+		<p class="justify-txt" data-translate="about.text1">L'entreprise Georges Thomas est située à Thiers dans le Puy-de-Dôme (63) et intervient dans un rayon de 50 km, vous fournissant un service de qualité, que vous soyez un particulier ou un professionel.</p>
+
+		<p class="justify-txt" data-translate="about.text2">Pour un suivi cohérent et en toute sérénité, Thomas sera votre seul interlocuteur du début à la fin des travaux.</p>
+	</section>
+
+	<!-- ******************************************************* CONTACT ******************************************************* -->
+
+	<section class="contact" id="contact">
+		<h3 class="title">Contact</h3>
+		<div class="contact">
+			<p data-translate="company.name"></p>
+		</div>
+
+		<ul>
+			<li class="contact-li"><i class="fas fa-envelope">&nbsp;</i><a href="mailto:thomasgeorges64340@gmail.com" target="_blank" id="email">fab@gmail.com</a></li>
+			<li class="contact-li"><i class="fas fa-mobile-alt"></i> &nbsp;06 40 55 54 63</li>
+		</ul>
+
+		<form method="post" action="https://formsubmit.co/thomasgeorges64340@gmail.com">
+			<input type="email" name="email" placeholder="email@example.com" class="form-input" id="form-email" onchange="toggleSubmitDisable()">
+			<input type="number" name="number" placeholder="0621436587" class="form-input" id="form-number" onchange="toggleSubmitDisable()">
+			<textarea name="message" placeholder="Message" id="form-message" rows="10" cols="40" class="form-input"></textarea>
+			<input type="submit" value="Envoyer" class="form-input">
+		</form>
+	</section>
+
+	<!-- ******************************************************* FOOTER ******************************************************* -->
+
+	<footer>
+		<p>&copy; <span id="year"></span> | <span data-translate="company.name"></span> | <span>TOUS DROITS RÉSERVÉS</span> <!-- | Propulsé par Samdespion --></p>
+	</footer>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
